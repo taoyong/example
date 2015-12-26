@@ -5,7 +5,7 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**
- * Created by lizhi1 on 14-8-14.
+ * Created by lizhi on 14-8-14.
  */
 public class JedisTemplateTest {
     public static void main(String[] args){
