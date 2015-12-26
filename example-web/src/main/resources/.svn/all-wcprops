@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/java-example/!svn/ver/48/trunk/example/example-web/src/main/resources
+END
+spring-config-datasource-dbcp.xml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/java-example/!svn/ver/48/trunk/example/example-web/src/main/resources/spring-config-datasource-dbcp.xml
+END
+spring-config-service.xml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/java-example/!svn/ver/39/trunk/example/example-web/src/main/resources/spring-config-service.xml
+END
+struts.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/java-example/!svn/ver/39/trunk/example/example-web/src/main/resources/struts.xml
+END
+spring-config.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/java-example/!svn/ver/48/trunk/example/example-web/src/main/resources/spring-config.xml
+END
+spring-config-dao.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/java-example/!svn/ver/48/trunk/example/example-web/src/main/resources/spring-config-dao.xml
+END
+spring-config-struts.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/java-example/!svn/ver/39/trunk/example/example-web/src/main/resources/spring-config-struts.xml
+END
+velocity.properties
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/java-example/!svn/ver/3/trunk/example/example-web/src/main/resources/velocity.properties
+END
+example-production.properties
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/java-example/!svn/ver/48/trunk/example/example-web/src/main/resources/example-production.properties
+END
+spring-config-manager.xml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/java-example/!svn/ver/39/trunk/example/example-web/src/main/resources/spring-config-manager.xml
+END
+struts-example.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/java-example/!svn/ver/39/trunk/example/example-web/src/main/resources/struts-example.xml
+END
+log4j.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/java-example/!svn/ver/39/trunk/example/example-web/src/main/resources/log4j.xml
+END
+spring-config-datasource-jndi.xml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/java-example/!svn/ver/48/trunk/example/example-web/src/main/resources/spring-config-datasource-jndi.xml
+END

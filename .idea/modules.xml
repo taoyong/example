@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/example-dao/example-dao.iml" filepath="$PROJECT_DIR$/example-dao/example-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/example-domain/example-domain.iml" filepath="$PROJECT_DIR$/example-domain/example-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/example-ear/example-ear.iml" filepath="$PROJECT_DIR$/example-ear/example-ear.iml" />
+      <module fileurl="file://$PROJECT_DIR$/example-manager/example-manager.iml" filepath="$PROJECT_DIR$/example-manager/example-manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/example-rpc/example-rpc.iml" filepath="$PROJECT_DIR$/example-rpc/example-rpc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/example-service/example-service.iml" filepath="$PROJECT_DIR$/example-service/example-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/example-test/example-test.iml" filepath="$PROJECT_DIR$/example-test/example-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/example-web/example-web.iml" filepath="$PROJECT_DIR$/example-web/example-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jd-example.iml" filepath="$PROJECT_DIR$/jd-example.iml" />
+    </modules>
+  </component>
+</project>
+

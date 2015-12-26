@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/java-example/!svn/ver/42/trunk/example/example-dao/src/main/resources/sqlmap
+END
+Example.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/java-example/!svn/ver/20/trunk/example/example-dao/src/main/resources/sqlmap/Example.xml
+END
+Order.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/java-example/!svn/ver/42/trunk/example/example-dao/src/main/resources/sqlmap/Order.xml
+END
+User.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/java-example/!svn/ver/42/trunk/example/example-dao/src/main/resources/sqlmap/User.xml
+END
