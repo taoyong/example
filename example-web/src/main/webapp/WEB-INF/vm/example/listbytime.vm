@@ -1,0 +1,57 @@
+<script type="text/javascript" src="/js/My97DatePicker/WdatePicker.js"></script>
+<script type="text/javascript" src="/js/jquery-1.11.1.js"></script>
+<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.0.js"></script>>
+
+
+<form action="$!exampleModule.getTarget("/example/listbytime.action")" method="get" onsubmit="return timeCheck();">
+
+    起始时间：<input type="text" id="timestart" name="startTime" size="30" onClick="WdatePicker({skin:'whyGreen',dateFmt:'yyyy-MM-dd H:mm:ss'})" value="$!stringEscapeUtils.escapeHtml($!startTime)"/>
+    截止时间：<input type="text" id="timeend" name="endTime" size="30" onClick="WdatePicker({skin:'whyGreen',dateFmt:'yyyy-MM-dd H:mm:ss'})" value="$!stringEscapeUtils.escapeHtml($!endTime)"/>
+    <input type="submit"  id="timesub"()/>
+</form>
+
+<table border="1" style="outline:aqua" cellpadding="0" cellspacing="0" width="500">
+    <thead>
+    <th>名称</th>
+    <th>类型</th>
+    <th>创建日期</th>
+    </thead>
+    <tbody>
+    #foreach($example in $examples)
+    <tr>
+        <td>$!stringEscapeUtils.escapeHtml($!example.name)</td>
+        <td>$!example.type</td>
+        <td>$!dateFormatUtils.format($!example.created,"yyyy-MM-dd HH:mm:ss")</td>
+    </tr>
+    #end
+    </tbody>
+</table>
+
+
+
+#set($pageModule = $exampleModule.getTarget("/example/listbytime.action").addQueryData("query",$!query).addQueryData("key",["a","b","c"]).addQueryData("pageSize",$!pageSize))
+#showPage($pageModule $examples)
+
+<script type="text/javascript">
+    function timeCheck(){
+        debugger;
+        console.info("log info");
+        //alert("jquery");
+        var start;
+        var end;
+        if( jQuery("#timestart").val()==""|| jQuery("#timeend").val()=="")
+        {
+            alert("查询时间不能为空，请重新输入");
+            return false;
+        }
+        start = jQuery("#timestart").val();
+        end = jQuery("#timeend").val();
+        if(start>end)
+        {
+            alert("起始时间不能小于结束时间，请重新输入");
+            return false;
+        }
+        return true;
+
+    }
+</script>

@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="example-ear:ear exploded">
+    <output-path>$PROJECT_DIR$/example-ear/target/example-web.ear</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="example-ear/javaeeApplication/JavaEE" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/example-ear/target/example-web.ear/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="archive" name="example-web-1.0-SNAPSHOT.war">
+        <element id="artifact" artifact-name="example-web:war exploded" />
+      </element>
+      <element id="library" level="project" name="Maven: org.springframework:spring:2.5.6" />
+      <element id="library" level="project" name="Maven: log4j:log4j:1.2.14" />
+      <element id="library" level="project" name="Maven: com.jd.common:jd-common-util:1.0" />
+    </root>
+  </artifact>
+</component>

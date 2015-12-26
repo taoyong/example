@@ -1,0 +1,90 @@
+10
+
+dir
+51
+http://svn1.360buy-develop.com/repos/java-example/trunk/example
+http://svn1.360buy-develop.com/repos/java-example
+
+
+
+2011-05-03T08:55:21.436061Z
+51
+yangsiyong
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+85934bbe-2bd5-4295-b352-a5484bd27bb4
+
+example-dao
+dir
+
+example-domain
+dir
+
+example-ear
+dir
+
+example-manager
+dir
+
+example-rpc
+dir
+
+example-service
+dir
+
+example-test
+dir
+
+
+
+add
+
+example-web
+dir
+
+pom.xml
+file
+
+
+
+
+2011-04-19T01:50:13.505872Z
+2f53ec6db59be19b5b41a31e7f14c636
+2010-10-26T08:31:55.787567Z
+47
+yangsiyong
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2460
+

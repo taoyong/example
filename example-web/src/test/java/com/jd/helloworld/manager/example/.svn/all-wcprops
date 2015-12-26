@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/java-example/!svn/ver/20/trunk/example/example-web/src/test/java/com/jd/helloworld/manager/example
+END
+MemcachedClientTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repos/java-example/!svn/ver/20/trunk/example/example-web/src/test/java/com/jd/helloworld/manager/example/MemcachedClientTest.java
+END
+ExampleManagerCachedTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/repos/java-example/!svn/ver/20/trunk/example/example-web/src/test/java/com/jd/helloworld/manager/example/ExampleManagerCachedTest.java
+END
